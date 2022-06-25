@@ -4,17 +4,25 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "axios": "^0.27.2",
     "next": "12.1.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "17.0.1",
+    "react-currency-formatter": "^1.1.0",
+    "react-dom": "17.0.1",
+    "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.7",
     "eslint": "8.18.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4"
   }
 }
