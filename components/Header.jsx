@@ -58,7 +58,7 @@ const Header = () => {
         </p>
         <p className="link">Prime Video</p>
         <p className="link">Amazon Business</p>
-        <p className="link">Today's Deals</p>
+        <p className="link">Today Deals</p>
         <p className="hidden lg:inline-flex link">Electronics</p>
         <p className="hidden lg:inline-flex link">Food & Grocery</p>
         <p className="hidden lg:inline-flex link">Prime</p>
